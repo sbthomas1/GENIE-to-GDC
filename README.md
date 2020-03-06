@@ -7,8 +7,8 @@ Database scripts use @ to delimit statements.
 Scripts load all objects to schema named "GDC"
 
 Run scripts in the following order:
-1. DatabaseScript_01_Create.sql
-2. DatabaseScript_02_InsertEntities.sql
-3. DatabaseScript_03_InsertPairs.sql
+1. GENIE-to-GDC/Scripts/DatabaseScript_01_Create.sql
+2. GENIE-to-GDC/Scripts/DatabaseScript_02_InsertEntities.sql
+3. GENIE-to-GDC/Scripts/DatabaseScript_03_InsertPairs.sql
 
 To view a pivoted table of all mappings, query GDC.All_Mappings_V
