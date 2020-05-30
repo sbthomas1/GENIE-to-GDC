@@ -35,5 +35,5 @@ After doing these steps, the AODG Entity for oncotree_2017_06_21 will have two a
   1. OTTT_Name (Anaplastic Oligodendroglioma)
   2. GDC_morphology (9451/3) </br>
      a.  This attribute can be connected to: </br>
-         (1). Entity 9451/3 (with EntityType GDC_morphology), which has the attribute:
+         (1). Entity 9451/3 (with EntityType GDC_morphology), which has the attribute: </br>
               (a).  GDC_primary_diagnosis (Oligodendroglioma, anaplastic)
