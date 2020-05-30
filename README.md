@@ -21,7 +21,7 @@ To view a pivoted table of all mappings, query GDC.All_Mappings_V
 5. Run the FactEAVInsert procedure again to load the second classification system from the staging table into the dimension/fact tables.
 6. To link classifications, add the EntityType and Entity data from the second system as Attribute and Pair data (respectively) for the corresponding EntityType and Entity from the first system.  You can use the STAGING_LOAD_FACT table / FactEAVInsert procedure combination for these to be added to the dimension/fact tables as links.
 
-##Example
+## Example
 1. EntityType: oncotree_2017_06_21; Entity: AODG; Attribute: OTTT_NAME; Pair: Anaplastic Oligodendroglioma
 2. EntityType: GDC_morphology; Entity:9451/3; Attribute: GDC_primary_diagnosis; Pair: Oligodendroglioma, anaplastic
 3. EntityType: oncotree_2017_06_21; Entity: AODG; Attribute:GDC_morphology; Pair:9451/3
